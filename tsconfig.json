@@ -1,0 +1,29 @@
+{
+	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"allowJs": false,
+		"preserveConstEnums": true, // "preserveConstEnums": true
+		"noImplicitAny": true, //Enable error reporting for expressions and declarations with an implied any type.
+		"module": "es6", //Specify what module code is generated.
+		"target": "es5",
+		"esModuleInterop": true,
+		"jsx": "react-jsx",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"strict": true,
+		"moduleResolution": "node",
+		"plugins": [{"name": "typescript-plugin-css-modules"}],
+		"paths": {
+			"@app/*": ["app/*"],
+			"@pages/*": ["pages/*"],
+			"@widgets/*": ["widgets/*"],
+			"@features/*": ["features/*"],
+			"@entities/*": ["entities/*"],
+			"@shared/*": ["shared/*"],
+			"@types/*": ["types/*"],
+			"@icons/*": ["assets/icons/*"],
+			"@images/*": ["assets/img/*"]
+		}
+	}
+}
