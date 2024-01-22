@@ -1,5 +1,5 @@
 @import './variables';
-// @import 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400&family=Oswald:wght@200;300;400;600&display=swap');
 
 *,
 ::after,
@@ -16,7 +16,8 @@ body {
 	width: 100%;
 	max-width: 1600px;
 	margin: 0 auto;
-	// font-family: Inter, sans-serif;
+	// font-family: 'Cormorant', serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 a {

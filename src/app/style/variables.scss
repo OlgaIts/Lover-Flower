@@ -1,3 +1,16 @@
 :root {
-	--bg: #000000;
+  // colors
+	--bg: #040A0A;
+  --text: #fff;
+  --accent-one: #43FFD2;
+  --accent-two: #D978AC;
+  --accent-bg: #7D2253;
+
+  // fonts
+  --textRegular: 400 14px 'Oswald', sans-serif;
+  --textLight: 200 14px 'Oswald', sans-serif;
+  --supTitle: 400 20px 'Oswald', sans-serif;
+  --title: 400 100px 'Cormorant', serif;
+  --listTitle: 600 30px 'Oswald', sans-serif;
+  --list: 400 18px 'Oswald', sans-serif;
 }
